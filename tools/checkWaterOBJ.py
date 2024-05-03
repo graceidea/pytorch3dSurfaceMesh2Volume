@@ -68,7 +68,7 @@ def is_water_tight(vertices, triangles):
 
 
 # Example usage
-obj_file_path = '/home/mint/AI_Source/pytorch3d/YLTset/tools/test.obj'  # Replace 'example.obj' with your OBJ file path
+obj_file_path = '/home/mint/AI_Source/pytorch3d/YLTset/tools/merged.obj'  # Replace 'example.obj' with your OBJ file path
 vertices, triangles = load_obj_file(obj_file_path)
 if is_water_tight(vertices, triangles):
     print("The mesh /home/mint/AI_Source/pytorch3d/YLTset/tools/test.obj is water-tight.")
